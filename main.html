@@ -1,0 +1,299 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PharmaSync</title>
+
+    <!-- Box Icons  -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Styles  -->
+    <link rel="shortcut icon" href="img/PharmaSync.png" type="image/x-icon">
+    <link rel="stylesheet" href="Css/main.css">
+    <link rel="stylesheet" href="Css/charts.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- script-->
+    <script
+src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+</script>
+
+    <!-- script-->
+  </head>
+
+<body>
+    <div class="sidebar close">
+        <!-- ========== Logo ============  -->
+        <a href="#" class="logo-box">
+            <i class='bx bxl-xing'> <img src="img/PharmaSync.png" alt=""></i>
+            <div class="logo-name">PharmaSync</div>
+        </a>
+
+        <!-- ========== List ============  -->
+        <ul class="sidebar-list">
+            <!-- -------- Non Dropdown List Item ------- -->
+            <li>
+                <div class="title">
+                    <a href="" class="link">
+                        <i class='bx bx-home-alt'></i>
+                        <span class="name">Home</span>
+                    </a>
+                    <!-- <i class='bx bxs-chevron-down'></i> -->
+                </div>
+                <div class="submenu">
+                    <a href="" class="link submenu-title">Home</a>
+                    <!-- submenu links here  -->
+                </div>
+            </li>
+            <li>
+                <div class="title">
+                    <a href="Hospitals/host.html" class="link">
+                        <i class='bx bx-hotel'></i>
+                        <span class="name">Hospitals</span>
+                    </a>
+                    <!-- <i class='bx bxs-chevron-down'></i> -->
+                </div>
+                <div class="submenu">
+                    <a href="Hospitals/host.html" class="link submenu-title">Hospitals</a>
+                    <!-- submenu links here  -->
+                </div>
+            </li>
+
+            <!-- -------- Dropdown List Item ------- -->
+            
+
+            <!-- -------- Dropdown List Item ------- -->
+             <!--<li class="dropdown">
+                <div class="title">
+                    <a href="#" class="link">
+                        <i class='bx bx-book-alt'></i>
+                        <span class="name">Posts</span>
+                    </a>
+                    <i class='bx bxs-chevron-down'></i>
+                </div>
+                <div class="submenu">
+                    <a href="#" class="link submenu-title">Posts</a>
+                    <a href="#" class="link">Web Design</a>
+                    <a href="#" class="link">Login Form</a>
+                    <a href="#" class="link">Card Design</a>
+                </div>
+            </li>   
+        -->
+
+            <!-- -------- Non Dropdown List Item ------- -->
+            <li>
+                <div class="title">
+                    <a href="Requests/Requests.html" class="link">
+                        <i class='fa-solid fa-code-pull-request'></i>
+                        <span class="name">Requests</span>
+                    </a>
+                    <!-- <i class='bx bxs-chevron-down'></i> -->
+                </div>
+                <div class="submenu">
+                    <a href="Requests/Requests.html" class="link submenu-title">Requests</a>
+                    <!-- submenu links here  -->
+                </div>
+            </li>
+
+            <!-- -------- Non Dropdown List Item ------- -->
+            
+
+
+            <li>
+              <div class="title">
+                  <a href="Delivery/Delivery.html" class="link">
+                      <i class='bx bx-car'></i>
+                      <span class="name">Delivery</span>
+                  </a>
+                  <!-- <i class='bx bxs-chevron-down'></i> -->
+              </div>
+              <div class="submenu">
+                  <a href="Delivery/Delivery.html" class="link submenu-title">Delivery</a>
+                  <!-- submenu links here  -->
+              </div>
+          </li>
+
+            <!-- -------- Dropdown List Item ------- -->
+            <!--  <li class="dropdown">
+                <div class="title">
+                    <a href="#" class="link">
+                        <i class='bx bx-extension'></i>
+                        <span class="name">Plugins</span>
+                    </a>
+                    <i class='bx bxs-chevron-down'></i>
+                </div>
+                <div class="submenu">
+                    <a href="#" class="link submenu-title">Plugins</a>
+                    <a href="#" class="link">UI Face</a>
+                    <a href="#" class="link">Pigments</a>
+                    <a href="#" class="link">Box Icons</a>
+                </div>
+            </li>  -->
+
+            <!-- -------- Non Dropdown List Item ------- -->
+            <li>
+                <div class="title">
+                    <a href="Stock/Stock.html" class="link">
+                        <i class='bx bx-pie-chart'></i>
+                        <span class="name">Stock</span>
+                    </a>
+                    <!-- <i class='bx bxs-chevron-down'></i> -->
+                </div>
+                <div class="submenu">
+                    <a href="Stock/Stock.html" class="link submenu-title">Stock</a>
+                    <!-- submenu links here  -->
+                </div>
+            </li>
+
+            <!-- -------- Non Dropdown List Item ------- -->
+            <li>
+                <div class="title">
+                    <a href="Inbox/Inbox.html" class="link">
+                        <i class='bx bx-mail-send'></i>
+                        <span class="name">Inbox</span>
+                    </a>
+                    <!-- <i class='bx bxs-chevron-down'></i> -->
+                </div>
+                <div class="submenu">
+                    <a href="Inbox/Inbox.html" class="link submenu-title">Inbox</a>
+                    <!-- submenu links here  -->
+                </div>
+            </li>
+
+            
+        </ul>
+    </div>
+
+    <!-- ============= Home Section =============== -->
+    <section class="home">
+      <nav class="navbar">
+        <div class="toggle-sidebar">
+            <i class='bx bx-menu'></i>
+            <div class="text">Home</div>
+        </div>
+        <div class="bar">
+            <!-- language change-->
+        <div class="notification center" id="lang" >
+           
+            <p style="font-weight: 600;">Fr</p>
+          </div>
+        <!-- end language change-->
+            <!-- Notification -->
+        <div class="notification center">
+          <input type="checkbox" >
+          <div class="num center">3</div>
+          <div class="box">
+            <div class="heading center">
+              <p><i class="fas fa-bell"></i> <span>3</span> Notification</p>
+            </div>
+            <div class="notification_box">
+              <p><i class="fas fa-bug"></i> new shipment</p>
+              <p><i class="fas fa-bug"></i> Low stock  </p>
+              <p><i class="fas fa-bug"></i> delivery reminder </p>
+            </div>
+          </div>
+        </div>
+        <!-- end notification-->
+        <!--Central user -->
+        <div id="userContainer">
+            <button id="userBtn">Central</button>
+            <div id="userDetails" class="userbox">
+                <div class="heading center">
+                    <p><i class="fas fa-user"></i> Centeral</p>
+                </div>
+                <div class="heading center">
+                    <p>ID: 11011</p>
+                
+                </div>
+                <a href="log in page.html">
+                <button class=" heading center " style="background-color: tomato;"> Logout</button>
+            </a>
+            </div>
+        </div>
+        
+        
+        
+        
+      </div>
+      </nav>
+      <div class="PharmaSync center">
+        <img src="img/img.png" alt="">
+        <p>PharmaSync</p>
+      </div>
+      <div class="analy center">
+        <div class="left">
+            <div class="img1 center">
+                <div id="animations-example-6">
+                    <table class="charts-css column show-labels hide-data data-spacing-5 show-primary-axis">
+                      <caption> Animation Example #6 </caption>
+                       <thead>
+                        <tr>
+                          <th scope="col"> Year </th>
+                         <th scope="col"> Progress </th>
+                        </tr>
+                      </thead>
+                       <tbody>
+                        <tr><th scope="row"> 2016 </th><td style="--size: 0.4;"><span class="data"> 20 </span>
+                          </td></tr> <tr><th scope="row"> 2017 </th> <td style="--size: 0.6;"><span class="data"> 40 </span>
+                          </td></tr> <tr><th scope="row"> 2018 </th> <td style="--size: 1.0;"><span class="data"> 100 </span>
+                          </td></tr> <tr><th scope="row"> 2019 </th> <td style="--size: 1.0;"><span class="data"> 50 </span>
+                          </td></tr> <tr><th scope="row"> 2020 </th> <td style="--size: 0.9;"><span class="data"> 30 </span>
+                          </td></tr> <tr><th scope="row"> 2021 </th> <td style="--size: 0.9;"><span class="data"> 30 </span>
+                          </td></tr> <tr><th scope="row"> 2022 </th> <td style="--size: 0.8;"><span class="data"> 30 </span>
+                          </td></tr> <tr><th scope="row"> 2023 </th> <td style="--size: 0.7;"><span class="data"> 30 </span>
+                
+                          </td></tr></tbody></table></div>
+            </div><div class="heading center">quantity of medications used in the last eight years</div></div>
+        <div class="cent"> 
+            <div class="img1 center">
+                <div id="exemple"><table class="charts-css area hide-data"><caption> Data Example #6 - Front End Developer Salary </caption>
+                    <tbody>
+                     <tr><td style="--start: 0.2; --size: 0.4;">
+                     </td></tr> <tr><td style="--start: 0.4; --size: 0.8;">
+                     </td></tr> <tr><td style="--start: 0.8; --size: 0.6;">
+                     </td></tr> <tr><td style="--start: 0.6; --size: 1.0;">
+                     </td></tr> <tr><td style="--start: 1.0; --size: 0.8;">
+                     </td></tr> <tr><td style="--start: 0.4; --size: 0.8;">
+                     </td></tr> <tr><td style="--start: 0.8; --size: 0.6;">
+                     </td></tr> <tr><td style="--start: 0.6; --size: 1.0;">
+                     </td></tr> <tr><td style="--start: 1.0; --size: 1.0;">
+                     </td></tr> <tr><td style="--start: 1.0; --size: 1.0;">
+                     </td></tr> <tr><td style="--start: 1.0; --size: 0.9;">
+                     </td></tr> <tr><td style="--start: 0.9; --size: 0.9;">
+                     </td></tr> <tr><td style="--start: 0.9; --size: 0.9;">
+                     </td></tr> <tr><td style="--start: 0.9; --size: 0.8;">
+                     </td></tr> <tr><td style="--start: 0.8; --size: 0.6;">
+                     </td></tr> <tr><td style="--start: 0.6; --size: 1.0;">
+                     </td></tr> <tr><td style="--start: 1.0; --size: 0.8;">
+                     </td></tr> <tr><td style="--start: 0.8; --size: 0.8;">
+                     </td></tr> <tr><td style="--start: 0.8; --size: 0.6;">
+                     </td></tr> <tr><td style="--start: 0.6; --size: 1.0;">
+                     </td></tr> <tr><td style="--start: 1.0; --size: 1.0;">
+                     </td></tr> <tr><td style="--start: 1.0; --size: 1.0;">
+                     </td></tr> <tr><td style="--start: 1.0; --size: 1.0;">
+                     </td></tr> <tr><td style="--start: 1.0; --size: 0.7;">
+                     </td></tr> <tr><td style="--start: 0.7; --size: 0.7;">
+               
+                     </td></tr></tbody></table></div>
+               
+            </div><div class="heading center">Paracetamol usage "YEAR 2023"</div>
+        </div>
+        <div class="right">
+            <div class="img1 center">
+                <canvas id="myChart" ></canvas>
+            </div><div class="heading center">Glucophage usage "YEAR 2023"</div>
+        </div>
+      </div>
+      <footer class="center" style="float: right;">
+        <p>&copy; 2024 Ninety Nine Inc. All rights reserved.</p>
+    </footer>
+      
+    </section>
+    
+
+    <!-- Link JS -->
+    <script src="js/main.js"></script>
+    
+</body>
+
+</html>
